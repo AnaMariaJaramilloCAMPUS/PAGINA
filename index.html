@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>LucieStorage</title>
+</head>
+<body>
+    <div class="conatiner-fluid d-flex flex-column text-center gap-2">
+        <div class="Bloque1 row-fluid" style="background-color: #edbb99">
+            <img class="logo" src="Imagenes/logo-lucie.png" alt="logo">
+            <h1>For fun kids and organized moms</h1>
+        </div>
+        <div class="Bloque2 row py-2">
+            <div>
+                <div class="col">
+                    <div>
+                        <img class="rounded float-start" src="Imagenes/lupa.png" width="60" alt="Imagen lupa">
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img class="rounded float-end" src="Imagenes/carrito.png"  width="70" alt="Imagen carrito compras">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Bloque3 row-fluid gy-0">
+            <div>
+                <button class="button">Ver más</button>
+            </div>
+            
+        </div>
+        <div class="Bloque4 row gy-1">
+            <div class="col-12">
+                <div class="separador"><b><u>Categorías</u></b></div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+               <figure class="figure">
+                    <img class="img-thumbnail" src="Imagenes/catalogo.JPG" alt="">
+                    <figcaption class="categoria"><b>CATÁLOGO</b></figcaption>
+               </figure>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <figure class="figure">
+                    <img class="img-thumbnail" src="Imagenes/cesteria.JPG" alt="">
+                    <figcaption class="categoria"><b>CESTERÍA</b></figcaption>
+               </figure>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <figure class="figure">
+                    <img class="img-thumbnail" src="Imagenes/mesa.JPG" alt="">
+                    <figcaption class="categoria"><b>MESA</b></figcaption>
+               </figure>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <figure class="figure">
+                    <img class="img-thumbnail" src="Imagenes/decoracion.JPG"alt="">
+                    <figcaption class="categoria"><b>DECORACIÓN</b></figcaption>
+               </figure>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <figure class="figure">
+                    <img class="img-thumbnail" src="Imagenes/infantil.JPG" alt="">
+                    <figcaption class="categoria"><b>INFANTIL</b></figcaption>
+               </figure>
+            </div>
+        </div>
+        <div class="Bloque5 row-fluid">
+            <div class="col-12">
+                <div class="separador"><b><u>Lo más vendido</u></b></div>
+            </div>
+            <div id="carouselExampleMulti" class="carousel slide carousel-multi-item" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleMulti" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleMulti" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleMulti" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img class="card-img-top" src="Imagenes/banner1.JPG" alt="Card image cap">
+                        </div>
+                      </div>
+              
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img class="card-img-top" src="Imagenes/banner2.JPG" alt="Card image cap">
+                        </div>
+                      </div>
+              
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img class="card-img-top" src="Imagenes/banner3.JPG" alt="Card image cap">
+                        </div>
+                      </div>
+              
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img class="card-img-top" src="Imagenes/banner4.JPG" alt="Card image cap">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img class="card-img-top" src="Imagenes/banner5.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+              
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img class="card-img-top" src="Imagenes/catalogo.JPG" alt="Card image cap">
+                        </div>
+                      </div>
+              
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img class="card-img-top" src="img7.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+              
+                      <div class="col-md-3">
+                        <div class="card">
+                          <img class="card-img-top" src="img8.jpg" alt="Card image cap">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleMulti" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleMulti" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Siguiente</span>
+                </a>
+              </div>
+              
+        </div>
+        <div class="Bloque6 row py-3" style="background-color:  #fdf2e9;">
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <div>
+                    <h2><b>Contáctenos</b></h2>
+                    <p>
+                        (322) 8942171 <br>
+                        luciestorage@gmail.com<br>
+                        @lucie_storage
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <div>
+                    <h2><b>Ayuda</b></h2>
+                    <p>
+                        Envíos y cambios<br>
+                        Política de la tienda<br>
+                        Métodos de Pago<br>
+                        Preguntas frecuentes<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-12 col-lg-6 col-xxl-4">
+                <div>
+                    <h2><b>Redes</b></h2>
+                    <p>
+                        luciestorage.com 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

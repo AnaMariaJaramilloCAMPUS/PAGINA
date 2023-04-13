@@ -1,0 +1,79 @@
+.Bloque1 {
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Bloque3 {
+    position: relative;
+    background-image: url(Imagenes/foto1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    height: 35em;
+    align-items: center;
+    border-bottom: 5px;
+}
+
+.button {
+    position: absolute;
+    bottom:5%;
+    left:80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    background-color:transparent;
+    border-color:  #fdebd0;
+    border-radius: 10%;
+    border-width: 10px;
+    color: rgb(12, 10, 10);
+    text-shadow: 3px 3px 3px white;
+    cursor:pointer;      
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img.logo {
+    width: 10em;
+    height: auto;
+    text-align: center;
+}
+
+.img-thumbnail {
+    border-radius: 5%;
+    width: 30em;
+    height: auto;
+}
+
+h1 {
+    font-size: 2em;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-size: 1.5em;
+    
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: gray;
+}
+
+.categoria {
+    color: gray;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.separador {
+    font-size: 1.8em;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    border-bottom: 5px;
+    border-color: #edbb99;
+}
